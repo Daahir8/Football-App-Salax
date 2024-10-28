@@ -1,5 +1,5 @@
-import {View, Text, ImageBackground, TouchableOpacity} from 'react-native';
 import React from 'react';
+import { ImageBackground, Text, TouchableOpacity, View } from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 const OnBoarding1 = ({navigation}) => {
   return (
@@ -15,8 +15,8 @@ const OnBoarding1 = ({navigation}) => {
           width: '100%',
         }}>
         <ImageBackground
-          imageStyle={{alignSelf: 'center',resizeMode: "contain"}}
-          source={require('../../../assets/images/minImg1.png')}
+          imageStyle={{alignSelf: 'center', resizeMode: 'contain'}}
+          source={require('../../../assets/images/salax3.jpeg')}
           style={{
             width: '100%',
             height: 440,
